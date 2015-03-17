@@ -20,6 +20,7 @@
   "permissions": [
     "notifications",
     "idle",
+    "*://*.ufirstgroup.com/*",
     "*://*.toggl.com/*",
     "*://toggl.com/*",
     "*://*.teamweek.com/*",
@@ -73,6 +74,7 @@
   "content_scripts": [
     {
       "matches": [
+        "*://*.ufirstgroup.com/*",
         "*://*.teamweek.com/*",
         "*://*.pivotaltracker.com/*",
         "*://*.github.com/*",
@@ -208,6 +210,10 @@
       "js": ["scripts/content/redmine.js"]
     },
     {
+      "matches": ["*://projects.ufirstgroup.com/*"],
+      "js": ["scripts/content/redmine.js"]
+    },
+    {
       "matches": ["*://*.myjetbrains.com/*"],
       "js": ["scripts/content/youtrack.js"]
     },
@@ -265,6 +271,10 @@
     },
     {
       "matches": ["*://*.taiga.io/*"],
+      "js": ["scripts/content/taiga.js"]
+    },
+    {
+      "matches": ["*://taiga.ufirstgroup.com/*"],
       "js": ["scripts/content/taiga.js"]
     },
     {
