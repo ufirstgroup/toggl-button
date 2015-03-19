@@ -2,53 +2,9 @@
 
 Add Toggl one-click time tracking to popular web tools.
 
-## Compatible services
-  - [TeamWeek][2]
-  - [Pivotal tracker][3]
-  - [Github][4]
-  - [Asana][5]
-  - [Unfuddle][6]
-  - [Gitlab][7]
-  - [Trello][8]
-  - [Worksection][9]
-  - [Redbooth (old UI)][10]
-  - [Podio][11]
-  - [Basecamp][12]
-  - [JIRA (InCloud)][13]
-  - [Producteev][14]
-  - [Bitbucket][15]
-  - [Sifter][16]
-  - [Google Docs][17]
-  - [Redmine][18]
-  - [YouTrack (InCloud)][19]
-  - [CapsuleCRM][20]
-  - [Xero][21]
-  - [Zendesk][22]
-  - [Any.do][23]
-  - [Todoist][24]
-  - [Trac][25]
-  - [Wunderlist][26]
-  - [Toodledo][27]
-  - [Teamwork.com][28]
-  - [Google Mail][29]
-  - [Taiga][30]
-  - [HabitRPG][31]
-  - [Axosoft][32]
-  - [Countersoft Gemini][33]
-  - [Drupal][34]
-  - [Esa][35]
-  - [Help Scout][36]
-  - [GetFlow][37]
-  - [Sprintly][38]
-  - [Google Calendar][39]
-  
-## Installing from the Web Store
-
-https://chrome.google.com/webstore/detail/toggl-button/oejgccbfbmkkpaidnkphaiaecficdnfn
-
 ## Installing from Source
 
-1.  Clone the repository: `git clone git://github.com/toggl/toggl-button`
+1.  Clone the repository: `git clone git://github.com/toggl/ufirstgroup`
 2.  Navigate to `chrome://extensions/` and enable "Developer Mode".
 3.  Choose "Load unpacked extension..."
 4.  Open the src directory in the toggl-button directory you just cloned and follow the prompts to install.
