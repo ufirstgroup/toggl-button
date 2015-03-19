@@ -4,7 +4,7 @@ Add Toggl one-click time tracking to popular web tools.
 
 ## Installing from Source
 
-1.  Clone the repository: `git clone git://github.com/toggl/ufirstgroup`
+1.  Clone the repository: `git clone git://github.com/ufirstgroup/toggl-button/`
 2.  Navigate to `chrome://extensions/` and enable "Developer Mode".
 3.  Choose "Load unpacked extension..."
 4.  Open the src directory in the toggl-button directory you just cloned and follow the prompts to install.
